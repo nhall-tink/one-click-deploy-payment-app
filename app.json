@@ -1,0 +1,21 @@
+{
+    "name": "Tink One Click Deploy Demo Application",
+    "description": "A simple application to use to get up and running with Tink Payments",
+    "repository": "https://github.com/nhall-tink/one-click-deploy-payment-app",
+    "logo": "https://cdn.openbankingexpo.com/wp-content/uploads/2019/09/Tink-Logo.png",
+    "keywords": ["node", "express", "static"],
+    "env": {
+        "REACT_APP_CLIENT_ID": {
+          "description": "Your Tink Client Id (found in console.tink.com)",
+          "default": true
+        },
+        "TINK_CLIENT_SECRET": {
+          "description": "Your Client Secret (found in console.tink.com)",
+          "default": true
+        },
+        "REACT_APP_BRAND_NAME": {
+          "description": "Brand name to show on website eg. Company 123",
+          "default": true
+        }
+      }
+  }
