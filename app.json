@@ -6,15 +6,15 @@
     "keywords": ["node", "express", "static"],
     "env": {
         "REACT_APP_CLIENT_ID": {
-          "description": "Your Tink Client Id (found in console.tink.com)",
+          "description": "Your Tink Client Id",
           "default": true
         },
         "TINK_CLIENT_SECRET": {
-          "description": "Your Client Secret (found in console.tink.com)",
+          "description": "Your Client Secret",
           "default": true
         },
         "REACT_APP_BRAND_NAME": {
-          "description": "Brand name to show on website eg. Company 123",
+          "description": "Brand name to show on website",
           "default": true
         }
       }
