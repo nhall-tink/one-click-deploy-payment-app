@@ -17,7 +17,7 @@ type ProductItem = {
 };
 
 const Product: ProductItem = {
-  model: 'Sculptural artwork',
+  model: 'Sculptural Landscape',
   name: 'Landscape',
   price: {
     market: 'SE',
@@ -46,7 +46,7 @@ const Demostore: React.FC = () => {
     <div className="App">
       <Header />
       <div className="content mb-234">
-        <h1 className="text-2xl">Payments demo</h1>
+        <h1 className="text-2xl">{process.env.REACT_APP_TINK_LINK_PAYMENT_BRAND_NAME}</h1>
         <div className="paper display-flex flex-column">
           <div className="display-flex">
             <div className="h-68 w-68 bg-londan-square rounded-15 display-flex mb-54"></div>
