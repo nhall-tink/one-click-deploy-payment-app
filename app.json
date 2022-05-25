@@ -16,10 +16,6 @@
       "REACT_APP_BRAND_NAME": {
         "description": "Brand name, example: Gotham Bank.",
         "default": true
-      },
-      "REACT_APP_BRAND_URL": {
-        "description": "URL to an image of your choice.",
-        "default": true
       }
     }
 }
